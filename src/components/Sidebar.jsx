@@ -38,7 +38,11 @@ export default function Sidebar({ isOpen, onClose }) {
     const sidebarContent = (
         <>
             <div className="flex h-16 items-center gap-3 px-5">
-                <img src="https://flowbite.com/images/logo.svg" className="h-8 w-8" alt="Shelf OS Logo" />
+                <img
+                    src="https://flowbite.com/docs/images/logo.svg"
+                    className="h-8 w-8"
+                    alt="Shelf OS Logo"
+                />
                 <span className="text-xl font-semibold tracking-tight text-[#202224]">
                     Shelf OS
                 </span>
